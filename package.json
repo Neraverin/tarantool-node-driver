@@ -1,0 +1,39 @@
+{
+  "name": "tarantool-node-driver",
+  "version": "0.1.0",
+  "description": "The unofficial Tarantool driver for Node.js",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neraverin/tarantool-node-driver.git"
+  },
+  "keywords": [
+    "tarantool",
+    "driver"
+  ],
+  "author": {
+    "name": "Vladimir Salykin",
+    "email": "neraverin@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Neraverin/tarantool-node-driver/issues"
+  },
+  "homepage": "https://github.com/Neraverin/tarantool-node-driver#readme",
+  "scripts": {
+    "check:eslint": "eslint -v && eslint --max-warnings=0 --ext '.js,.ts' src"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-tsdoc": "^0.2.16"
+  }
+}
