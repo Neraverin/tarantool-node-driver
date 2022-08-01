@@ -1,14 +1,14 @@
 {
 	"compilerOptions": {
 		"allowJs": false,
-    "checkJs": false,
-    "strict": true,
-    "alwaysStrict": true,
+    	"checkJs": false,
+    	"strict": true,
+    	"alwaysStrict": true,
 		"target": "ES2019",
 		"module": "commonJS",
-    "moduleResolution": "node",
+    	"moduleResolution": "node",
 		"skipLibCheck": true,
-    "lib": ["es2020"],
+    	"lib": ["es2020"],
 		"outDir": "lib",
 		// We want the sourcemaps in a separate file
 		"inlineSourceMap": false,
@@ -19,7 +19,7 @@
 		// we include sources in the release
 		"inlineSources": false,
 		// Prevents web types from being suggested by vscode.
-		"types": ["node"],
+		"types": ["mocha", "node"],
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitOverride": true,
 		"noImplicitReturns": true,
