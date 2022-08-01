@@ -1,3 +1,3 @@
-import { TarantoolConnection } from './tarantool_connection';
+import { TarantoolConnection } from './connection';
 
 export { TarantoolConnection };

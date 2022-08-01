@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import { TarantoolConnection } from '../../src/tarantool_connection';
+import { TarantoolConnection } from '../../src/connection';
 
 describe('constructor', function () {
   it('should parse options correctly', function () {
