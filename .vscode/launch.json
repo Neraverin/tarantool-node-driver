@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "Check:eslint",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run-script", "check:eslint"]
+  },
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "Check:tsd",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run-script", "check:tsd"]
+  },
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "Check:dts",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run-script", "check:dts"]
+  },
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "Check:unit",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run-script", "check:unit"]
+  },
+  {
+    "type": "node",
+    "request": "launch",
+    "name": "Run test",
+    "cwd": "${workspaceFolder}",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": ["run-script", "test"]
+  }
+  ]
+}
