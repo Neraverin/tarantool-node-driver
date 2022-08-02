@@ -1,12 +1,14 @@
 /** @public */
 export class TarantoolConnection {
-  private _host: string;
+  public readonly host: string;
+  public readonly port: string | number;
+  public readonly username: string;
+  public readonly password: string;
 
-  constructor(host = '127.0.0.1') {
-    this._host = host;
-  }
-
-  get_host() {
-    return this._host;
+  constructor(host = '127.0.0.1', port = 3301, username?: string, password?: string) {
+    this.host = host;
+    this.port = port;
+    this.password = password ?? '';
+    this.username = username ?? '';
   }
 }
